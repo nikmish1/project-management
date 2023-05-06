@@ -13,7 +13,7 @@ const SidebarLink = ({ link }) => {
   let isActive = false;
 
   if (pathname === link.link) {
-    isActive = true;
+    isActive = true; 
   }
 
   const Icon = icons[link.icon];

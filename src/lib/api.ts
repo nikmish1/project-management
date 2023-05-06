@@ -19,6 +19,9 @@ const fetcher = async ({ url, method, body, json = true }) => {
     }
 };
 
+//help unit test separately
+//provides usability
+//only UI stuff on component
 export const register = async (user) => {
     return fetcher({
         url: "/api/register",
